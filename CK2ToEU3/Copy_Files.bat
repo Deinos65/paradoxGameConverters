@@ -1,0 +1,8 @@
+copy "Data Files\blocked_nations.txt" "%1\blocked_nations.txt"
+copy "Data Files\configuration.txt" "%1\configuration.txt"
+copy "Data Files\country_mappings.txt" "%1\country_mappings.txt"
+copy "Data Files\culture_mappings.txt" "%1\culture_mappings.txt"
+copy "Data Files\religion_mappings.txt" "%1\religion_mappings.txt"
+copy "Data Files\province_mappings.txt" "%1\province_mappings.txt"
+copy "Data Files\readme.txt" "%1\readme.txt"
+xcopy /E /Y /Q /I "Converter Mod" "%1"
